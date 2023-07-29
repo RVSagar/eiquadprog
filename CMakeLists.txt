@@ -82,3 +82,5 @@ install(
 if(BUILD_TESTING)
   add_subdirectory(tests)
 endif(BUILD_TESTING)
+
+install(FILES package.xml DESTINATION share/${PROJECT_NAME})
